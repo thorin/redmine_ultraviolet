@@ -36,7 +36,8 @@ class UvSyntaxHighlighting
   def self.highlight_by_language(text, language)
     xhtml = Uv.parse(text, "xhtml", language, false, user_theme)
     xhtml.gsub /^<pre class=".+?">(.*)<\/pre>$/m, '\1'
-  rescue
+  rescue => ex
+    Rails.logger.warn "Error in redmine_ultraviolet during #{language} parsing: #{ex}"
     ERB::Util.h(text)
   end
 
