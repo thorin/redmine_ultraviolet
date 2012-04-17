@@ -14,6 +14,12 @@ Redmine::Plugin.register :redmine_ultraviolet do
   all_themes = Uv.themes.sort
   default_theme = all_themes.first
 
+  # Copy theme stylesheets
+  css_directory = File.join(Engines.public_directory, 'redmine_ultraviolet', 'stylesheets')
+  Uv.path.each do |dir|
+    Engines.mirror_files_from File.join( dir, "render", "xhtml", "files", "css" ), css_directory
+  end
+
   # Create or update a user custom field to hold user preference theme
   custom_field = UserCustomField.find_by_name(UvSyntaxHighlighting::CUSTOM_FIELD_NAME)
   unless custom_field
