@@ -13,10 +13,10 @@ First, install Oniguruma (advanced regular expression support):
 
   Ubuntu/Debian:
     apt-get install libonig-dev
-  
+
   OSX (with Brew):
     brew install oniguruma
- 
+
   Windows:
     gem install oniguruma
 
@@ -27,7 +27,7 @@ Next, install the Ultraviolet gem:
 
 And finally, use Rails' handy-dandy plugin installer to grab this plugin:
 
-  script/plugin install git://github.com/epitron/redmine_ultraviolet.git
+  script/plugin install git://github.com/Adirelle/redmine_ultraviolet.git
 
 
 Alternatively, you can just get a copy of it and copy the <tt>redmine_ultraviolet</tt>
@@ -205,6 +205,7 @@ Each user can change the colour scheme by going to "My account" and picking the 
 * Originally by Chris Gahan ({epitron}[http://github.com/epitron/]) (2009-2011)
 * Contributions by Andy Bailey ({neosonic}[http://github.com/neosonic/]) (2010)
 * Contributions by Daniel Exner ({DeX77}[http://github.com/epitron/DeX77]) (2011)
+* Refactored by Guillaume Perreal ({Adirelle}[http://github.com/Adirelle/]) (2012)
 
 = License:
 
