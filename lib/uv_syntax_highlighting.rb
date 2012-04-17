@@ -34,9 +34,9 @@ class UvSyntaxHighlighting
   # Highlights +text+ using +language+ syntax
   # Should not return outer pre tag
   def self.highlight_by_language(text, language)
-    Uv.parse(text, "xhtml", language, false, user_theme)
-  rescue => e
-    puts e, e.backtrace.select { |l| /redmine/ =~ l }
+    xhtml = Uv.parse(text, "xhtml", language, false, user_theme)
+    xhtml.gsub /^<pre class=".+?">(.*)<\/pre>$/m, '\1'
+  rescue
     ERB::Util.h(text)
   end
 
