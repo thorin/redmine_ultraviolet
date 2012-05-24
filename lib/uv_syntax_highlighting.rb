@@ -43,7 +43,7 @@ class UvSyntaxHighlighting
 
   def self.user_theme()
     theme = User.current.custom_value_for(custom_field).value
-    Uv.themes.include?(theme) ? theme : Uv.themes.first
+    Uv.themes.include?(theme) ? theme : Uv.themes.sort.first
   end
 
 private
