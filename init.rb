@@ -39,7 +39,7 @@ Redmine::Plugin.register :redmine_ultraviolet do
 
     # Ensure we are always using our highlighter
     Dispatcher.to_prepare do
-      Redmine::SyntaxHighlighting.highlighter = UvSyntaxHighlighting
+      Redmine::SyntaxHighlighting.highlighter = 'UvSyntaxHighlighting'
     end
 
   end
