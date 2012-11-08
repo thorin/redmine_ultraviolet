@@ -1,0 +1,109 @@
+.syntaxhl .EmbeddedSource {
+   background-color: #CE9065;
+}
+.syntaxhl .LibraryObject {
+   font-weight: bold;
+   color: #6D79DE;
+}
+.syntaxhl .Section {
+   font-style: italic;
+}
+.syntaxhl .FunctionArgumentAndResultTypes {
+   color: #8B8E9C;
+}
+.syntaxhl .TypeName {
+   text-decoration: underline;
+}
+.syntaxhl .Number {
+   color: #44AA43;
+}
+.syntaxhl {
+   background-color: #2A211C;
+   color: #BDAE9D;
+}
+.syntaxhl .MarkupTagAttribute {
+   font-style: italic;
+}
+.syntaxhl .LibraryVariable {
+   font-weight: bold;
+   color: #2F5FE0;
+}
+.syntaxhl .line-numbers {
+   background-color: #C3DCFF;
+   color: #000000;
+}
+.syntaxhl .FunctionParameter {
+   font-style: italic;
+}
+.syntaxhl .MarkupTag {
+   color: #43A8ED;
+}
+.syntaxhl .JsOperator {
+   color: #687687;
+}
+.syntaxhl .InheritedClassName {
+   font-style: italic;
+}
+.syntaxhl .StringInterpolation {
+   color: #2FE420;
+}
+.syntaxhl .MarkupNameOfTag {
+   font-weight: bold;
+}
+.syntaxhl .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+}
+.syntaxhl .LibraryConstant {
+   font-weight: bold;
+   color: #00AF0E;
+}
+.syntaxhl .MarkupXmlDeclaration {
+   color: #8F7E65;
+}
+.syntaxhl .PreprocessorDirective {
+   font-weight: bold;
+   color: #9AFF87;
+}
+.syntaxhl .BuiltInConstant {
+   font-weight: bold;
+   color: #585CF6;
+}
+.syntaxhl .MarkupDtd {
+   font-style: italic;
+}
+.syntaxhl .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+.syntaxhl .LibraryFunction {
+   font-weight: bold;
+   color: #7290D9;
+}
+.syntaxhl .String {
+   color: #049B0A;
+}
+.syntaxhl .UserDefinedConstant {
+   font-weight: bold;
+   color: #C5656B;
+}
+.syntaxhl .Keyword {
+   font-weight: bold;
+   color: #43A8ED;
+}
+.syntaxhl .MarkupDoctype {
+   color: #888888;
+}
+.syntaxhl .FunctionName {
+   font-weight: bold;
+   color: #FF9358;
+}
+.syntaxhl .PreprocessorLine {
+   color: #1A921C;
+}
+.syntaxhl .Variable {
+   color: #318495;
+}
+.syntaxhl .Comment {
+   color: #0066FF;
+   font-style: italic;
+}

@@ -1,0 +1,72 @@
+.syntaxhl .ClassInheritance {
+   font-style: italic;
+}
+.syntaxhl .Constant {
+   color: #3387CC;
+}
+.syntaxhl .TypeName {
+   text-decoration: underline;
+}
+.syntaxhl .TextBase {
+   background-color: #434242;
+   color: #FFFFFF;
+}
+.syntaxhl {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+.syntaxhl .StringEscapesExecuted {
+   color: #555555;
+}
+.syntaxhl .line-numbers {
+   background-color: #73597E;
+   color: #FFFFFF;
+}
+.syntaxhl .StringExecuted {
+   background-color: #CCCC33;
+   color: #000000;
+}
+.syntaxhl .BlockComment {
+   background-color: #9B9B9B;
+   color: #FFFFFF;
+}
+.syntaxhl .TagName {
+   text-decoration: underline;
+}
+.syntaxhl .PreProcessorLine {
+   color: #D0D0FF;
+}
+.syntaxhl .SupportFunction {
+   color: #C83730;
+}
+.syntaxhl .FunctionArgument {
+   font-style: italic;
+}
+.syntaxhl .PreProcessorDirective {
+}
+.syntaxhl .StringEscapes {
+   color: #AAAAAA;
+}
+.syntaxhl .SourceBase {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+.syntaxhl .TagAttribute {
+}
+.syntaxhl .StringLiteral {
+   color: #CCCC33;
+}
+.syntaxhl .String {
+   color: #66CC33;
+}
+.syntaxhl .Keyword {
+   color: #CC7833;
+}
+.syntaxhl .RegularExpression {
+   color: #CCCC33;
+}
+.syntaxhl .FunctionName {
+}
+.syntaxhl .Comment {
+   color: #9933CC;
+}

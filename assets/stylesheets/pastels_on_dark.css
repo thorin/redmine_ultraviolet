@@ -1,0 +1,188 @@
+.syntaxhl .CssPropertyColours {
+   color: #666633;
+}
+.syntaxhl .CssPropertyValue {
+   color: #9B2E4D;
+}
+.syntaxhl .HtmlDocinfoDtd {
+   font-style: italic;
+}
+.syntaxhl .Exceptions {
+   font-weight: bold;
+   color: #C82255;
+}
+.syntaxhl .ClassInheritance {
+   font-style: italic;
+}
+.syntaxhl .CssInvalidComma {
+   background-color: #FF0000;
+   color: #FFFFFF;
+}
+.syntaxhl .HtmlTag {
+   color: #858EF4;
+}
+.syntaxhl .Constants {
+   color: #6782D3;
+}
+.syntaxhl .Section {
+   font-style: italic;
+}
+.syntaxhl .PhpPhpdocs {
+   color: #777777;
+}
+.syntaxhl .Variables {
+   color: #C1C144;
+}
+.syntaxhl .RegularExpressions {
+   color: #666666;
+}
+.syntaxhl .Comments {
+   color: #555555;
+}
+.syntaxhl .line-numbers {
+   background-color: #73597E;
+   color: #FFFFFF;
+}
+.syntaxhl .PhpVariablesGlobals {
+   color: #B72E1D;
+}
+.syntaxhl .PhpConstantsCorePredefined {
+   font-weight: bold;
+   color: #DE8E20;
+}
+.syntaxhl .HtmlDoctype {
+   color: #888888;
+}
+.syntaxhl .HtmlDocinfoXml {
+   color: #68685B;
+}
+.syntaxhl .AttributeName {
+   color: #9B456F;
+}
+.syntaxhl .ClassName {
+   text-decoration: underline;
+}
+.syntaxhl .FunctionArgumentName {
+   font-weight: bold;
+}
+.syntaxhl .FunctionResult {
+   color: #0000FF;
+}
+.syntaxhl .TmlangdefKeys {
+   color: #7171F3;
+}
+.syntaxhl .CssSelectorsElements {
+   font-weight: bold;
+   color: #B8CD06;
+}
+.syntaxhl .CssSelectorsId {
+   color: #EC9E00;
+}
+.syntaxhl .ControlStructures {
+   font-weight: bold;
+   color: #6969FA;
+}
+.syntaxhl .Interpolation {
+   color: #C10006;
+}
+.syntaxhl .CommentsBlock {
+   color: #555555;
+}
+.syntaxhl .CssSelectorsPseudoclass {
+   color: #2E759C;
+}
+.syntaxhl .Operators {
+   color: #47B8D6;
+}
+.syntaxhl .TagName {
+   color: #858EF4;
+}
+.syntaxhl .EmbeddedCode {
+   text-decoration: underline;
+}
+.syntaxhl .PhpVariablesSaferGlobals {
+   color: #00FF00;
+}
+.syntaxhl .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+}
+.syntaxhl .Functions {
+   color: #A1A1FF;
+}
+.syntaxhl .Keywords {
+   color: #A1A1FF;
+}
+.syntaxhl {
+   background-color: #211E1E;
+   color: #DADADA;
+}
+.syntaxhl .PhpKeywordsStorage {
+   color: #6969FA;
+}
+.syntaxhl .PhpIncludeRequire {
+   color: #C82255;
+}
+.syntaxhl .HtmlAttribute {
+   color: #9B456F;
+}
+.syntaxhl .AttributeWithValue {
+   color: #9B456F;
+}
+.syntaxhl .FunctionArgumentType {
+   color: #0000FF;
+}
+.syntaxhl .PreprocessorDirective {
+   font-weight: bold;
+}
+.syntaxhl .CssUnits {
+   color: #6969FA;
+}
+.syntaxhl .CssFontNames {
+   color: #666633;
+}
+.syntaxhl .CssSelectorsClassname {
+   color: #EDCA06;
+}
+.syntaxhl .PhpStringsSingleQuoted {
+   color: #BFA36D;
+}
+.syntaxhl .PhpConstantsStandardPredefined {
+   font-weight: bold;
+   color: #DE8E10;
+}
+.syntaxhl .HtmlServersideIncludes {
+   color: #909090;
+}
+.syntaxhl .CssPropertyKeyword {
+   color: #E1C96B;
+}
+.syntaxhl .LanguageConstants {
+   font-weight: bold;
+   color: #DE8E30;
+}
+.syntaxhl .CharacterConstants {
+   color: #AFA472;
+}
+.syntaxhl .Invalid {
+   font-weight: bold;
+   background-color: #FF0000;
+   color: #FFF9F9;
+}
+.syntaxhl .FunctionArgumentVariable {
+   font-style: italic;
+}
+.syntaxhl .Strings {
+   color: #AD9361;
+}
+.syntaxhl .PhpStringsDoubleQuoted {
+   color: #AD9361;
+}
+.syntaxhl .FunctionName {
+   font-weight: bold;
+}
+.syntaxhl .PreprocessorLine {
+   color: #2F006E;
+}
+.syntaxhl .Numbers {
+   color: #CCCCCC;
+}

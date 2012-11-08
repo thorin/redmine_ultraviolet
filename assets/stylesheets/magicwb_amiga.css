@@ -1,0 +1,104 @@
+.syntaxhl .MarkupQuoteEmail {
+   color: #00F0C9;
+}
+.syntaxhl .EmbeddedSource {
+   background-color: #8A9ECB;
+}
+.syntaxhl .InheritedClass {
+   font-style: italic;
+}
+.syntaxhl .TypeName {
+   text-decoration: underline;
+}
+.syntaxhl .Number {
+   color: #FFFFFF;
+}
+.syntaxhl .LibraryVariable {
+   color: #3A68A3;
+}
+.syntaxhl .Storage {
+   font-weight: bold;
+   color: #3A68A3;
+}
+.syntaxhl .line-numbers {
+   background-color: #B1B1B1;
+   color: #000000;
+}
+.syntaxhl .IncludeUser {
+   background-color: #969696;
+   color: #FFA995;
+}
+.syntaxhl .ObjectiveCMethodCall {
+   color: #000000;
+}
+.syntaxhl .ConstantUserDefined {
+   background-color: #1D1DEA;
+   color: #FFA995;
+}
+.syntaxhl .LibraryConstant {
+   color: #FFFFFF;
+}
+.syntaxhl .EntityName {
+   font-weight: bold;
+   color: #0000FF;
+}
+.syntaxhl .ConstantBuiltIn {
+   font-weight: bold;
+   color: #FFA995;
+}
+.syntaxhl .MarkupRaw {
+   background-color: #0000FF;
+   color: #FFFFFF;
+}
+.syntaxhl .MarkupListItem {
+   color: #4D4E60;
+}
+.syntaxhl .FunctionArgument {
+   font-style: italic;
+}
+.syntaxhl .ObjectiveCMethodCall1 {
+   font-style: italic;
+}
+.syntaxhl .MarkupQuoteDoubleEmail {
+   color: #4C457E;
+}
+.syntaxhl .IncludeSystem {
+   background-color: #969696;
+   color: #FFA995;
+   font-style: italic;
+}
+.syntaxhl .Invalid {
+   background-color: #797979;
+   color: #FFFFFF;
+}
+.syntaxhl .LibraryClassType {
+   color: #FFA995;
+}
+.syntaxhl .LibraryFunction {
+   color: #E5B3FF;
+}
+.syntaxhl .TagAttribute {
+   color: #3A68A3;
+   font-style: italic;
+}
+.syntaxhl .Keyword {
+   font-weight: bold;
+}
+.syntaxhl .String {
+   background-color: #EA1D1D;
+   color: #FFFFFF;
+}
+.syntaxhl {
+   background-color: #969696;
+   color: #000000;
+}
+.syntaxhl .FunctionName {
+   color: #FFA995;
+}
+.syntaxhl .Variable {
+   color: #FFA995;
+}
+.syntaxhl .Comment {
+   color: #8D2E75;
+   font-style: italic;
+}

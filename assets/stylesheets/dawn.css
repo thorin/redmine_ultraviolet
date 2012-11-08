@@ -1,0 +1,121 @@
+.syntaxhl .MetaSeparator {
+   font-weight: bold;
+   background-color: #DCDCDC;
+   color: #19356D;
+}
+.syntaxhl .SupportVariable {
+   color: #234A97;
+}
+.syntaxhl .Constant {
+   font-weight: bold;
+   color: #811F24;
+}
+.syntaxhl .EmbeddedSource {
+   background-color: #829AC2;
+}
+.syntaxhl .StringRegexpConstantCharacterEscape {
+   font-weight: bold;
+   color: #811F24;
+}
+.syntaxhl .Support {
+   color: #691C97;
+}
+.syntaxhl .MarkupList {
+   color: #693A17;
+}
+.syntaxhl .Storage {
+   color: #A71D5D;
+   font-style: italic;
+}
+.syntaxhl .line-numbers {
+   background-color: #7496CF;
+   color: #000000;
+}
+.syntaxhl .StringConstant {
+   font-weight: bold;
+   color: #696969;
+}
+.syntaxhl .MarkupUnderline {
+   text-decoration: underline;
+   color: #080808;
+}
+.syntaxhl .MarkupHeading {
+   font-weight: bold;
+   color: #19356D;
+}
+.syntaxhl .SupportConstant {
+   color: #B4371F;
+}
+.syntaxhl .MarkupQuote {
+   background-color: #C5C5C5;
+   color: #0B6125;
+   font-style: italic;
+}
+.syntaxhl .StringRegexpSpecial {
+   font-weight: bold;
+   color: #CF5628;
+}
+.syntaxhl .InvalidIllegal {
+   background-color: #B52A1D;
+   color: #F8F8F8;
+   font-style: italic;
+}
+.syntaxhl .MarkupDeleted {
+   color: #B52A1D;
+}
+.syntaxhl .MarkupRaw {
+   background-color: #C5C5C5;
+   color: #234A97;
+}
+.syntaxhl .SupportFunction {
+   color: #693A17;
+}
+.syntaxhl .PunctuationSeparator {
+   color: #794938;
+}
+.syntaxhl .StringRegexp {
+   color: #CF5628;
+}
+.syntaxhl .StringEmbeddedSource {
+   background-color: #829AC2;
+   color: #080808;
+}
+.syntaxhl .MarkupLink {
+   color: #234A97;
+   font-style: italic;
+}
+.syntaxhl .MarkupBold {
+   font-weight: bold;
+   color: #080808;
+}
+.syntaxhl .StringVariable {
+   color: #234A97;
+}
+.syntaxhl .String {
+   color: #0B6125;
+}
+.syntaxhl .Keyword {
+   color: #794938;
+}
+.syntaxhl {
+   background-color: #F5F5F5;
+   color: #080808;
+}
+.syntaxhl .MarkupItalic {
+   color: #080808;
+   font-style: italic;
+}
+.syntaxhl .InvalidDeprecated {
+   font-weight: bold;
+   color: #B52A1D;
+}
+.syntaxhl .Variable {
+   color: #234A97;
+}
+.syntaxhl .Entity {
+   color: #BF4F24;
+}
+.syntaxhl .Comment {
+   color: #5A525F;
+   font-style: italic;
+}

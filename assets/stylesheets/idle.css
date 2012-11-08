@@ -1,0 +1,62 @@
+.syntaxhl .InheritedClass {
+}
+.syntaxhl .TypeName {
+   color: #21439C;
+}
+.syntaxhl .Number {
+}
+.syntaxhl .LibraryVariable {
+   color: #A535AE;
+}
+.syntaxhl .Storage {
+   color: #FF5600;
+}
+.syntaxhl .line-numbers {
+   background-color: #BAD6FD;
+   color: #000000;
+}
+.syntaxhl {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+.syntaxhl .StringInterpolation {
+   color: #990000;
+}
+.syntaxhl .TagName {
+}
+.syntaxhl .LibraryConstant {
+   color: #A535AE;
+}
+.syntaxhl .FunctionArgument {
+}
+.syntaxhl .BuiltInConstant {
+   color: #A535AE;
+}
+.syntaxhl .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+.syntaxhl .LibraryClassType {
+   color: #A535AE;
+}
+.syntaxhl .LibraryFunction {
+   color: #A535AE;
+}
+.syntaxhl .TagAttribute {
+}
+.syntaxhl .Keyword {
+   color: #FF5600;
+}
+.syntaxhl .UserDefinedConstant {
+}
+.syntaxhl .String {
+   color: #00A33F;
+}
+.syntaxhl .FunctionName {
+   color: #21439C;
+}
+.syntaxhl .Variable {
+}
+.syntaxhl .Comment {
+   color: #919191;
+}

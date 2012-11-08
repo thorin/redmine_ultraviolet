@@ -1,0 +1,121 @@
+.syntaxhl .EmbeddedSource {
+   background-color: #6597F6;
+}
+.syntaxhl .LibraryObject {
+   font-weight: bold;
+   color: #6D79DE;
+}
+.syntaxhl .Section {
+   font-style: italic;
+}
+.syntaxhl .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+.syntaxhl .TypeName {
+   font-style: italic;
+}
+.syntaxhl .Number {
+   color: #CD0000;
+   font-style: italic;
+}
+.syntaxhl .MarkupList {
+   color: #B90690;
+}
+.syntaxhl .MarkupTagAttribute {
+   font-style: italic;
+}
+.syntaxhl .LibraryVariable {
+   font-weight: bold;
+   color: #21439C;
+}
+.syntaxhl .line-numbers {
+   background-color: #C3DCFF;
+   color: #000000;
+}
+.syntaxhl .FunctionParameter {
+   font-style: italic;
+}
+.syntaxhl .MarkupTag {
+   color: #1C02FF;
+}
+.syntaxhl {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+.syntaxhl .MarkupHeading {
+   font-weight: bold;
+   color: #0C07FF;
+}
+.syntaxhl .JsOperator {
+   color: #687687;
+}
+.syntaxhl .InheritedClassName {
+   font-style: italic;
+}
+.syntaxhl .StringInterpolation {
+   color: #26B31A;
+}
+.syntaxhl .MarkupQuote {
+   color: #000000;
+   font-style: italic;
+}
+.syntaxhl .MarkupNameOfTag {
+   font-weight: bold;
+}
+.syntaxhl .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+}
+.syntaxhl .LibraryConstant {
+   font-weight: bold;
+   color: #06960E;
+}
+.syntaxhl .MarkupXmlDeclaration {
+   color: #68685B;
+}
+.syntaxhl .PreprocessorDirective {
+   font-weight: bold;
+   color: #0C450D;
+}
+.syntaxhl .BuiltInConstant {
+   color: #585CF6;
+   font-style: italic;
+}
+.syntaxhl .MarkupDtd {
+   font-style: italic;
+}
+.syntaxhl .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+.syntaxhl .LibraryFunction {
+   font-weight: bold;
+   color: #3C4C72;
+}
+.syntaxhl .String {
+   color: #D80800;
+}
+.syntaxhl .UserDefinedConstant {
+   color: #C5060B;
+   font-style: italic;
+}
+.syntaxhl .Keyword {
+   font-weight: bold;
+   color: #0100B6;
+}
+.syntaxhl .MarkupDoctype {
+   color: #888888;
+}
+.syntaxhl .FunctionName {
+   font-weight: bold;
+   color: #0000A2;
+}
+.syntaxhl .PreprocessorLine {
+   color: #1A921C;
+}
+.syntaxhl .Variable {
+   color: #0206FF;
+   font-style: italic;
+}
+.syntaxhl .Comment {
+   color: #00B418;
+}

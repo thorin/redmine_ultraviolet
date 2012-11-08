@@ -1,0 +1,114 @@
+.syntaxhl .DiffHeader {
+   background-color: #656565;
+   color: #FFFFFF;
+}
+.syntaxhl .Operator {
+}
+.syntaxhl .InheritedClass {
+}
+.syntaxhl .TypeName {
+   color: #21439C;
+}
+.syntaxhl .Number {
+   color: #A8017E;
+}
+.syntaxhl .EmbeddedSource {
+   background-color: #ECF1FF;
+}
+.syntaxhl {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+.syntaxhl .DiffInsertedLine {
+   background-color: #98FF9A;
+   color: #000000;
+}
+.syntaxhl .LibraryVariable {
+   color: #A535AE;
+}
+.syntaxhl .Storage {
+   color: #FF5600;
+}
+.syntaxhl .InterpolatedEntity {
+   font-weight: bold;
+   color: #66CCFF;
+}
+.syntaxhl .line-numbers {
+   background-color: #BAD6FD;
+   color: #000000;
+}
+.syntaxhl .LocalVariable {
+   font-weight: bold;
+   color: #6392FF;
+}
+.syntaxhl .DiffLineRange {
+   background-color: #1B63FF;
+   color: #FFFFFF;
+}
+.syntaxhl .BlockComment {
+   color: #D33435;
+}
+.syntaxhl .TagName {
+   color: #016CFF;
+}
+.syntaxhl .FunctionArgument {
+}
+.syntaxhl .BuiltInConstant {
+   color: #A535AE;
+}
+.syntaxhl .LineComment {
+   color: #D33535;
+}
+.syntaxhl .DiffDeletedLine {
+   background-color: #FF7880;
+   color: #000000;
+}
+.syntaxhl .NamedConstant {
+   color: #B7734C;
+}
+.syntaxhl .CommandMethod {
+   font-weight: bold;
+   color: #45AE34;
+}
+.syntaxhl .TableField {
+   color: #0BB600;
+}
+.syntaxhl .PlainXmlText {
+   color: #000000;
+}
+.syntaxhl .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+.syntaxhl .LibraryClassType {
+   color: #A535AE;
+}
+.syntaxhl .TagAttribute {
+   color: #963DFF;
+}
+.syntaxhl .Keyword {
+   font-weight: bold;
+   color: #006699;
+}
+.syntaxhl .UserDefinedConstant {
+}
+.syntaxhl .String {
+   color: #666666;
+}
+.syntaxhl .DiffUnchangedLine {
+   color: #5E5E5E;
+}
+.syntaxhl .TagContainer {
+   color: #7A7A7A;
+}
+.syntaxhl .FunctionName {
+   color: #21439C;
+}
+.syntaxhl .Variable {
+   font-weight: bold;
+   color: #0053FF;
+}
+.syntaxhl .DateTimeLiteral {
+   font-weight: bold;
+   color: #66CCFF;
+}

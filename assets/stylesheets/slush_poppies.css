@@ -1,0 +1,85 @@
+.syntaxhl .Directives {
+   font-weight: bold;
+}
+.syntaxhl .TypeName {
+   color: #800080;
+}
+.syntaxhl .InheritedClass {
+}
+.syntaxhl .OcamlInfixFPOperators {
+   text-decoration: underline;
+}
+.syntaxhl .Number {
+   color: #0080A0;
+}
+.syntaxhl .LibraryVariable {
+}
+.syntaxhl .Storage {
+   color: #008080;
+}
+.syntaxhl .line-numbers {
+   background-color: #B0B0FF;
+   color: #000000;
+}
+.syntaxhl .OcamlPrefixFPOperators {
+   text-decoration: underline;
+}
+.syntaxhl .OcamlFloatingPointConstants {
+   text-decoration: underline;
+}
+.syntaxhl .LineNumberDirectives {
+}
+.syntaxhl .TagName {
+}
+.syntaxhl .StorageTypes {
+   color: #A08000;
+}
+.syntaxhl .Operators {
+   color: #2060A0;
+}
+.syntaxhl .LibraryConstant {
+}
+.syntaxhl .VariantTypes {
+   color: #C08060;
+}
+.syntaxhl .FunctionArgument {
+}
+.syntaxhl .BuiltInConstant {
+}
+.syntaxhl .ClassTypeName {
+   color: #8000C0;
+}
+.syntaxhl .ModuleKeyword {
+   color: #0080FF;
+}
+.syntaxhl .Invalid {
+}
+.syntaxhl .LibraryClassType {
+}
+.syntaxhl .LibraryFunction {
+}
+.syntaxhl .TagAttribute {
+}
+.syntaxhl .Keyword {
+   color: #2060A0;
+}
+.syntaxhl .UserDefinedConstant {
+}
+.syntaxhl .CharacterConstants {
+   color: #800000;
+}
+.syntaxhl .String {
+   color: #C03030;
+}
+.syntaxhl {
+   background-color: #F1F1F1;
+   color: #000000;
+}
+.syntaxhl .FunctionName {
+   color: #800000;
+}
+.syntaxhl .Variable {
+}
+.syntaxhl .Comment {
+   color: #406040;
+}

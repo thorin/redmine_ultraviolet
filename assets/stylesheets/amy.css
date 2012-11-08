@@ -1,0 +1,147 @@
+.syntaxhl .PolymorphicVariants {
+   color: #60B0FF;
+   font-style: italic;
+}
+.syntaxhl .KeywordDecorator {
+   color: #D0D0FF;
+}
+.syntaxhl .Punctuation {
+   color: #805080;
+}
+.syntaxhl .InheritedClass {
+}
+.syntaxhl .InvalidDepricated {
+   background-color: #CC66FF;
+   color: #200020;
+}
+.syntaxhl .LibraryVariable {
+}
+.syntaxhl .TokenReferenceOcamlyacc {
+   color: #3CB0D0;
+}
+.syntaxhl .Storage {
+   color: #B0FFF0;
+}
+.syntaxhl .KeywordOperator {
+   color: #A0A0FF;
+}
+.syntaxhl .CharacterConstant {
+   color: #666666;
+}
+.syntaxhl .line-numbers {
+   background-color: #800000;
+   color: #000000;
+}
+.syntaxhl .ClassName {
+   color: #70E080;
+}
+.syntaxhl .Int64Constant {
+   font-style: italic;
+}
+.syntaxhl .NonTerminalReferenceOcamlyacc {
+   color: #C0F0F0;
+}
+.syntaxhl .TokenDefinitionOcamlyacc {
+   color: #3080A0;
+}
+.syntaxhl .ClassType {
+   color: #70E0A0;
+}
+.syntaxhl .ControlKeyword {
+   color: #80A0FF;
+}
+.syntaxhl .LineNumberDirectives {
+   text-decoration: underline;
+   color: #C080C0;
+}
+.syntaxhl .FloatingPointConstant {
+   text-decoration: underline;
+}
+.syntaxhl .Int32Constant {
+   font-weight: bold;
+}
+.syntaxhl .TagName {
+   color: #009090;
+}
+.syntaxhl .ModuleTypeDefinitions {
+   text-decoration: underline;
+   color: #B000B0;
+}
+.syntaxhl .Integer {
+   color: #7090B0;
+}
+.syntaxhl .Camlp4TempParser {
+}
+.syntaxhl .InvalidIllegal {
+   font-weight: bold;
+   background-color: #FFFF00;
+   color: #400080;
+}
+.syntaxhl .LibraryConstant {
+   background-color: #200020;
+}
+.syntaxhl .ModuleDefinitions {
+   color: #B000B0;
+}
+.syntaxhl .Variants {
+   color: #60B0FF;
+}
+.syntaxhl .CompilerDirectives {
+   color: #C080C0;
+}
+.syntaxhl .FloatingPointInfixOperator {
+   text-decoration: underline;
+}
+.syntaxhl .BuiltInConstant1 {
+}
+.syntaxhl {
+   background-color: #200020;
+   color: #D0D0FF;
+}
+.syntaxhl .FunctionArgument {
+   color: #80B0B0;
+}
+.syntaxhl .FloatingPointPrefixOperator {
+   text-decoration: underline;
+}
+.syntaxhl .NativeintConstant {
+   font-weight: bold;
+}
+.syntaxhl .BuiltInConstant {
+   color: #707090;
+}
+.syntaxhl .BooleanConstant {
+   color: #8080A0;
+}
+.syntaxhl .LibraryClassType {
+}
+.syntaxhl .TagAttribute {
+}
+.syntaxhl .Keyword {
+   color: #A080FF;
+}
+.syntaxhl .UserDefinedConstant {
+}
+.syntaxhl .String {
+   color: #999999;
+}
+.syntaxhl .Camlp4Code {
+   background-color: #350060;
+}
+.syntaxhl .NonTerminalDefinitionOcamlyacc {
+   color: #90E0E0;
+}
+.syntaxhl .FunctionName {
+   color: #50A0A0;
+}
+.syntaxhl .SupportModules {
+   color: #A00050;
+}
+.syntaxhl .Variable {
+   color: #008080;
+}
+.syntaxhl .Comment {
+   background-color: #200020;
+   color: #404080;
+   font-style: italic;
+}

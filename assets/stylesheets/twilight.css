@@ -1,0 +1,137 @@
+.syntaxhl .DiffInserted {
+   background-color: #253B22;
+   color: #F8F8F8;
+}
+.syntaxhl .DiffHeader {
+   background-color: #0E2231;
+   color: #F8F8F8;
+   font-style: italic;
+}
+.syntaxhl .CssPropertyValue {
+   color: #F9EE98;
+}
+.syntaxhl .CCCPreprocessorDirective {
+   color: #AFC4DB;
+}
+.syntaxhl .Constant {
+   color: #CF6A4C;
+}
+.syntaxhl .DiffChanged {
+   background-color: #4A410D;
+   color: #F8F8F8;
+}
+.syntaxhl .EmbeddedSource {
+   background-color: #A3A6AD;
+}
+.syntaxhl .Support {
+   color: #9B859D;
+}
+.syntaxhl .MarkupList {
+   color: #F9EE98;
+}
+.syntaxhl .CssConstructorArgument {
+   color: #8F9D6A;
+}
+.syntaxhl .Storage {
+   color: #F9EE98;
+}
+.syntaxhl .line-numbers {
+   background-color: #DDF0FF;
+   color: #000000;
+}
+.syntaxhl .CssClass {
+   color: #9B703F;
+}
+.syntaxhl .StringConstant {
+   color: #DDF2A4;
+}
+.syntaxhl .CssAtRule {
+   color: #8693A5;
+}
+.syntaxhl .MetaTagInline {
+   color: #E0C589;
+}
+.syntaxhl .MarkupHeading {
+   color: #CF6A4C;
+}
+.syntaxhl .CssTagName {
+   color: #CDA869;
+}
+.syntaxhl .SupportConstant {
+   color: #CF6A4C;
+}
+.syntaxhl .DiffDeleted {
+   background-color: #420E09;
+   color: #F8F8F8;
+}
+.syntaxhl .CCCPreprocessorLine {
+   color: #8996A8;
+}
+.syntaxhl .StringRegexpSpecial {
+   color: #CF7D34;
+}
+.syntaxhl .EmbeddedSourceBright {
+   background-color: #9C9EA4;
+}
+.syntaxhl .InvalidIllegal {
+   background-color: #241A24;
+   color: #F8F8F8;
+}
+.syntaxhl .SupportFunction {
+   color: #DAD085;
+}
+.syntaxhl .CssAdditionalConstants {
+   color: #CA7840;
+}
+.syntaxhl .MetaTagAll {
+   color: #AC885B;
+}
+.syntaxhl .StringRegexp {
+   color: #E9C062;
+}
+.syntaxhl .StringEmbeddedSource {
+   color: #DAEFA3;
+}
+.syntaxhl .EntityInheritedClass {
+   color: #9B5C2E;
+   font-style: italic;
+}
+.syntaxhl .CssId {
+   color: #8B98AB;
+}
+.syntaxhl .CssPseudoClass {
+   color: #8F9D6A;
+}
+.syntaxhl .StringVariable {
+   color: #8A9A95;
+}
+.syntaxhl .String {
+   color: #8F9D6A;
+}
+.syntaxhl .Keyword {
+   color: #CDA869;
+}
+.syntaxhl {
+   background-color: #141414;
+   color: #F8F8F8;
+}
+.syntaxhl .CssPropertyName {
+   color: #C5AF75;
+}
+.syntaxhl .DoctypeXmlProcessing {
+   color: #494949;
+}
+.syntaxhl .InvalidDeprecated {
+   color: #D2A8A1;
+   font-style: italic;
+}
+.syntaxhl .Variable {
+   color: #7587A6;
+}
+.syntaxhl .Entity {
+   color: #9B703F;
+}
+.syntaxhl .Comment {
+   color: #5F5A60;
+   font-style: italic;
+}

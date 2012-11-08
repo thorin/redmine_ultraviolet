@@ -1,0 +1,80 @@
+.syntaxhl .Constant {
+   color: #6782D3;
+}
+.syntaxhl .Support {
+   font-weight: bold;
+   color: #3333FF;
+}
+.syntaxhl .EmbeddedSource {
+   background-color: #F9F9F9;
+   color: #000000;
+}
+.syntaxhl .Arguments {
+   font-style: italic;
+}
+.syntaxhl .TypeName {
+   font-weight: bold;
+}
+.syntaxhl .Identifier {
+   color: #9700CC;
+}
+.syntaxhl .Number {
+   color: #0066FF;
+}
+.syntaxhl .SectionName {
+   font-weight: bold;
+}
+.syntaxhl .Storage {
+   font-weight: bold;
+}
+.syntaxhl .line-numbers {
+   background-color: #BAD6FD;
+   color: #000000;
+}
+.syntaxhl {
+   background-color: #EEEEEE;
+   color: #000000;
+}
+.syntaxhl .FrameTitle {
+   font-weight: bold;
+   color: #000000;
+}
+.syntaxhl .TagName {
+   font-weight: bold;
+}
+.syntaxhl .Tag {
+   color: #0033CC;
+}
+.syntaxhl .Exception {
+   color: #990000;
+}
+.syntaxhl .XmlDeclaration {
+   color: #333333;
+}
+.syntaxhl .TrailingWhitespace {
+   background-color: #EEEEEE;
+}
+.syntaxhl .TagAttribute {
+   color: #3366CC;
+   font-style: italic;
+}
+.syntaxhl .Invalid {
+   background-color: #E7342D;
+   color: #FF0000;
+}
+.syntaxhl .Keyword {
+   color: #0000FF;
+}
+.syntaxhl .String {
+   color: #009933;
+}
+.syntaxhl .Comment {
+   color: #0066FF;
+   font-style: italic;
+}
+.syntaxhl .FunctionName {
+   color: #FF8000;
+}
+.syntaxhl .RegularExpression {
+   color: #FF0080;
+}

@@ -1,0 +1,88 @@
+.syntaxhl .LatexSupport {
+   color: #FBDE2D;
+}
+.syntaxhl .OcamlInfixOperator {
+   color: #8DA6CE;
+}
+.syntaxhl .MetaFunctionCallPy {
+   color: #BECDE6;
+}
+.syntaxhl .Superclass {
+   color: #FF6400;
+   font-style: italic;
+}
+.syntaxhl .Constant {
+   color: #D8FA3C;
+}
+.syntaxhl {
+   background-color: #0C1021;
+   color: #F8F8F8;
+}
+.syntaxhl .OcamlFPConstant {
+   text-decoration: underline;
+}
+.syntaxhl .OcamlFPInfixOperator {
+   text-decoration: underline;
+}
+.syntaxhl .Support {
+   color: #8DA6CE;
+}
+.syntaxhl .OcamlOperator {
+   color: #F8F8F8;
+}
+.syntaxhl .Storage {
+   color: #FBDE2D;
+}
+.syntaxhl .line-numbers {
+   background-color: #253B76;
+   color: #FFFFFF;
+}
+.syntaxhl .StringInterpolation {
+   color: #FF6400;
+}
+.syntaxhl .InvalidIllegal {
+   background-color: #9D1E15;
+   color: #F8F8F8;
+}
+.syntaxhl .PlistUnquotedString {
+   color: #FFFFFF;
+}
+.syntaxhl .OcamlVariant {
+   color: #D5E0F3;
+}
+.syntaxhl .MetaTag {
+   color: #7F90AA;
+}
+.syntaxhl .LatexEnvironment {
+   background-color: #F7F7F8;
+}
+.syntaxhl .OcamlFPPrefixOperator {
+   text-decoration: underline;
+}
+.syntaxhl .OcamlPrefixOperator {
+   color: #8DA6CE;
+}
+.syntaxhl .EntityNameSection {
+   color: #FFFFFF;
+}
+.syntaxhl .String {
+   color: #61CE3C;
+}
+.syntaxhl .Keyword {
+   color: #FBDE2D;
+}
+.syntaxhl .LatexEnvironmentNested {
+   background-color: #7691F3;
+}
+.syntaxhl .InvalidDeprecated {
+   color: #AB2A1D;
+   font-style: italic;
+}
+.syntaxhl .Variable {
+}
+.syntaxhl .Entity {
+   color: #FF6400;
+}
+.syntaxhl .Comment {
+   color: #AEAEAE;
+}
