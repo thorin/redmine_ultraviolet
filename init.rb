@@ -11,9 +11,6 @@ Redmine::Plugin.register :redmine_ultraviolet do
 
   if UserCustomField.table_exists?
 
-    all_themes = Uv.themes.sort
-    default_theme = all_themes.first
-
     # Copy theme stylesheets
     css_directory = File.join(Engines.public_directory, 'redmine_ultraviolet', 'stylesheets')
     Uv.path.each do |dir|
@@ -25,15 +22,15 @@ Redmine::Plugin.register :redmine_ultraviolet do
     unless custom_field
       UserCustomField.create(
         :name             => UvSyntaxHighlighting::CUSTOM_FIELD_NAME,
-        :default_value    => default_theme,
-        :possible_values  => all_themes,
+        :default_value    => UvSyntaxHighlighting.default_theme,
+        :possible_values  => UvSyntaxHighlighting.all_themes,
         :field_format     => 'list',
         :is_required      => true
       )
     else
       # Keep in sync with available themes
-      custom_field.default_value = default_theme
-      custom_field.possible_values = all_themes
+      custom_field.default_value = UvSyntaxHighlighting.default_theme
+      custom_field.possible_values = UvSyntaxHighlighting.all_themes
       custom_field.save if custom_field.changed?
     end
 

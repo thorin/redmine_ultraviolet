@@ -4,7 +4,7 @@ require_dependency 'uv_syntax_highlighting'
 module UvHelper
 
   def uv_user_theme()
-    UvSyntaxHighlighting.user_theme || Uv.themes.sort.first
+    UvSyntaxHighlighting.user_theme
   end
 
 end

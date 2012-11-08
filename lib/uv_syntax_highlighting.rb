@@ -58,6 +58,13 @@ module UvSyntaxHighlighting
       end
     end
 
+    def all_themes()
+      Uv.themes.sort
+    end
+
+    def default_theme()
+      all_themes.first
+    end
 
   private
 
