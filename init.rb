@@ -1,7 +1,7 @@
 require 'redmine'
 require 'dispatcher'
 require_dependency 'uv_syntax_highlighting'
-require_dependency 'uv_helper'
+require_dependency 'uv_view_hook_listener'
 
 Redmine::Plugin.register :redmine_ultraviolet do
   name "Redmine Ultraviolet Syntax highlighting plugin"
