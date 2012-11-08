@@ -1,5 +1,6 @@
 require 'redmine'
 require 'dispatcher'
+require_dependency 'uv_extension'
 require_dependency 'uv_syntax_highlighting'
 require_dependency 'uv_view_hook_listener'
 
