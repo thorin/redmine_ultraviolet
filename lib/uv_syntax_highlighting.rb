@@ -37,7 +37,13 @@ module UvSyntaxHighlighting
     end
 
     def all_themes()
-      Uv.themes.sort
+      unless @themes
+        @themes = Dir.glob( File.join(File.dirname(__FILE__), '..', 'assets', 'stylesheets', '*.css') ).collect do |f|
+          File.basename(f, '.css')
+        end
+        @themes.sort!
+      end
+      @themes
     end
 
     def default_theme()
