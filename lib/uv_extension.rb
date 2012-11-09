@@ -17,6 +17,24 @@ module UvExtension
     end
   end
 
+  def Uv.unalias(language)
+    init_aliases unless @aliases
+    @aliases[language]
+  end
+
+  def Uv.init_aliases()
+    init_syntaxes unless @syntaxes
+    @aliases = {}
+    @syntaxes.each_pair do |name, s|
+      @aliases[name] = name
+      if s.fileTypes then
+        s.fileTypes.each do |t|
+          @aliases[t] = name
+        end
+      end
+    end
+  end
+
 end
 Uv.send :include, UvExtension
 

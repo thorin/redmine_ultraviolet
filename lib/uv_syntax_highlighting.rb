@@ -15,8 +15,9 @@ module UvSyntaxHighlighting
     # Highlights +text+ using +language+ syntax
     # Should not return outer pre tag
     def highlight_by_language(text, language)
-      if Uv.syntaxes.include? language then
-        xhtml = Uv.parse(text, "xhtml", language, false, user_theme)
+      syntax = Uv.unalias(language)
+      if syntax then
+        xhtml = Uv.parse(text, "xhtml", syntax, false, user_theme)
         xhtml.gsub /^<pre class=".+?">(.*)<\/pre>$/m, '\1'
       else
         Rails.logger.warn "redmine_ultraviolet: unknown syntax #{language}"
