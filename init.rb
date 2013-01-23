@@ -1,5 +1,4 @@
 require 'redmine'
-require 'dispatcher'
 require_dependency 'uv_extension'
 require_dependency 'uv_syntax_highlighting'
 require_dependency 'uv_view_hook_listener'
@@ -30,7 +29,7 @@ Redmine::Plugin.register :redmine_ultraviolet do
     end
 
     # Ensure we are always using our highlighter
-    Dispatcher.to_prepare do
+    ActionDispatch::Callbacks.to_prepare do 
       Redmine::SyntaxHighlighting.highlighter = 'UvSyntaxHighlighting'
     end
 
