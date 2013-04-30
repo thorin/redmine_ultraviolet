@@ -19,6 +19,7 @@ module UvExtension
 
   def Uv.unalias(language)
     init_aliases unless @aliases
+    Rails.logger.debug "redmine_ultraviolet: known syntaxes: #{@aliases}" if @aliases[language].blank?
     @aliases[language]
   end
 
