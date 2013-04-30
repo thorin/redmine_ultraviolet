@@ -20,7 +20,7 @@ module UvExtension
   def Uv.unalias(language)
     init_aliases unless @aliases
     Rails.logger.debug "redmine_ultraviolet: known syntaxes: #{@aliases}" if @aliases[language].blank?
-    @aliases[language]
+    @aliases[language] || @aliases["source.#{language}"]
   end
 
   def Uv.init_aliases()
@@ -40,14 +40,10 @@ module UvExtension
   #
   # So we restore the method manually and call it from the init.rb of redmine
   # Adapted from: http://www.ruby-doc.org/gems/docs/b/bjeanes-ultraviolet-0.10.3/Uv.html
-  #
-  # WARNING:
-  # As this plugins targets source code highlighting, the function only imports
-  # source.*.syntax, not *.syntax !
   def Uv.init_syntaxes
     @syntaxes = {}
-    Dir.glob( File.join(syntax_path, 'source.*.syntax') ).each do |f|
-      name = File.basename(f, '.syntax').gsub(/^source./, '')
+    Dir.glob( File.join(syntax_path, '*.syntax') ).each do |f|
+      name = File.basename(f, '.syntax')
       @syntaxes[name] = Textpow::SyntaxNode.load( f )
     end
     Rails.logger.debug "redmine_ultraviolet: finished importing syntaxes: #{@syntaxes}"
