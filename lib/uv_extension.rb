@@ -36,6 +36,23 @@ module UvExtension
     end
   end
 
+  # Removed from Uv but there are still references to it in the gem
+  #
+  # So we restore the method manually and call it from the init.rb of redmine
+  # Adapted from: http://www.ruby-doc.org/gems/docs/b/bjeanes-ultraviolet-0.10.3/Uv.html
+  #
+  # WARNING:
+  # As this plugins targets source code highlighting, the function only imports
+  # source.*.syntax, not *.syntax !
+  def Uv.init_syntaxes
+    @syntaxes = {}
+    Dir.glob( File.join(syntax_path, 'source.*.syntax') ).each do |f|
+      name = File.basename(f, '.syntax').gsub(/^source./, '')
+      @syntaxes[name] = Textpow::SyntaxNode.load( f )
+    end
+    Rails.logger.debug "redmine_ultraviolet: finished importing syntaxes: #{@syntaxes}"
+  end
+
 end
 Uv.send :include, UvExtension
 

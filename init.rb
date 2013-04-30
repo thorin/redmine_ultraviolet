@@ -16,6 +16,7 @@ ActionDispatch::Callbacks.to_prepare do
   require_dependency 'uv_view_hook_listener'
   # Ensure we are always using our highlighter
   Redmine::SyntaxHighlighting.highlighter = 'UvSyntaxHighlighting'
+  Uv.init_syntaxes
 end
 
 # Create or update a user custom field to hold user preference theme
