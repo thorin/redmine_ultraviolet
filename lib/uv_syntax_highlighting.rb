@@ -24,7 +24,7 @@ module UvSyntaxHighlighting
         ERB::Util.h(text)
       end
     rescue => ex
-      Rails.logger.error "Error in redmine_ultraviolet during #{language} parsing: #{ex}"
+      Rails.logger.error "redmine_ultraviolet: error during #{language} parsing: #{ex}"
       ERB::Util.h(text)
     end
 
