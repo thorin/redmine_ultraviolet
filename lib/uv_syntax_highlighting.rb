@@ -9,7 +9,7 @@ module UvSyntaxHighlighting
     # Should not return line numbers nor outer pre tag
     def highlight_by_filename(text, filename)
       language = Uv.syntax_for_text(text, filename)
-      language ? highlight_by_language(text, language) : ERB::Util.h(text)
+      language ? highlight_by_language(text.gsub(/x%x%/m, '&'), language) : ERB::Util.h(text)
     end
 
     # Highlights +text+ using +language+ syntax
@@ -17,7 +17,7 @@ module UvSyntaxHighlighting
     def highlight_by_language(text, language)
       syntax = Uv.unalias(language)
       if syntax then
-        xhtml = Uv.parse(text, "xhtml", syntax, false, user_theme)
+        xhtml = Uv.parse(text.gsub(/x%x%/m, '&'), "xhtml", syntax, false, user_theme)
         xhtml.gsub /^<pre class=".+?">(.*)<\/pre>$/m, '\1'
       else
         Rails.logger.warn "redmine_ultraviolet: unknown syntax #{language}"
