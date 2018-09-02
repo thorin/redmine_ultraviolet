@@ -9,7 +9,13 @@ Redmine::Plugin.register :redmine_ultraviolet do
 end
 
 # Patches
-ActionDispatch::Callbacks.to_prepare do
+if Rails::VERSION::MAJOR >= 5
+  reload_object = ActiveSupport::Reloader
+else
+  reload_object = ActionDispatch::Callbacks
+end
+
+reload_object.to_prepare do
   # .. to uv gem itself
   require_dependency 'uv_extension'
   require_dependency 'uv_syntax_highlighting'
